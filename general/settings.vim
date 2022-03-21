@@ -35,8 +35,6 @@ set formatoptions-=cro                  " Stop newline continution of comments
 set clipboard=unnamedplus               " Copy paste between vim and everything else
 set autochdir                           " Your working directory will always be the same as your working directory
 set syntax
-set runtimepath+=C:/Users/jangomax/AppData/Local/nvim-data/lsp_servers
-set path+=C:/Users/jangomax/AppData/Local/nvim-data/lsp_servers
 
 " While searching through a file, incrementally highlight matching chars as you type.
 set incsearch
