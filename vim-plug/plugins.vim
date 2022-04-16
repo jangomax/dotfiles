@@ -40,5 +40,7 @@ call plug#begin('C:\Users\jangomax\AppData\Local\nvim\autoload\plugged')
     Plug 'kyazdani42/nvim-tree.lua'
     " LspSaga LSP ui extension
     Plug 'glepnir/lspsaga.nvim'
+    " JSON view keys
+    Plug 'gennaro-tedesco/nvim-jqx'
 call plug#end()
 
