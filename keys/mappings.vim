@@ -27,4 +27,6 @@ nnoremap <silent> <Leader>/ :nohlsearch<CR>
 " Leader + f to toggle nvim-tree
 nnoremap <silent> <Leader>f :NvimTreeToggle<CR>
 
+" Leader + l for Lazygit
+nnoremap <silent> <Leader>l :LazyGit<CR>
 cmap W w
