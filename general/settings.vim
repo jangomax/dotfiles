@@ -51,6 +51,11 @@ set showmatch
 " Use highlighting when doing a search.
 set hlsearch
 
+
+" SOFT LINE WRAPPING
+set wrap 
+set linebreak
+
 " Enable type file detection. Vim will be able to try to detect the type of file in use.
 filetype on
 
@@ -64,3 +69,5 @@ au! BufWritePost $MYVIMRC source %      " auto source when writing to init.vm al
 
 " You can't stop me
 cmap w!! w !sudo tee %
+
+set laststatus=3

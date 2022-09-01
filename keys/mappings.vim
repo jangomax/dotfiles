@@ -30,3 +30,7 @@ nnoremap <silent> <Leader>f :NvimTreeToggle<CR>
 " Leader + l for Lazygit
 nnoremap <silent> <Leader>l :LazyGit<CR>
 cmap W w
+
+" Telescope 
+nnoremap <silent> <Leader>t :Telescope find_files<CR>
+nnoremap <silent> <C-t> :lua require('telescope.builtin').live_grep()<CR>

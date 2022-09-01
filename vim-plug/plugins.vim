@@ -1,16 +1,12 @@
 call plug#begin('C:\Users\jangomax\AppData\Local\nvim\autoload\plugged')
 
+" IDE
     " Better Syntax Support 
     Plug 'sheerun/vim-polyglot'
-    " File Explorer
-    "Plug 'scrooloose/NERDTree'
-    " Theme   
-    Plug 'lifepillar/vim-solarized8'
-    " Status Line
-    Plug 'vim-airline/vim-airline'
-    Plug 'vim-airline/vim-airline-themes'
-    " Dev Icons
-    Plug 'ryanoasis/vim-devicons'
+    " Statusline
+    Plug 'nvim-lualine/lualine.nvim'
+    " Bufferline
+    Plug 'akinsho/bufferline.nvim'
     " LSP 
     Plug 'neovim/nvim-lspconfig' 
     " Auto-install lsp servers (?)  
@@ -36,11 +32,29 @@ call plug#begin('C:\Users\jangomax\AppData\Local\nvim\autoload\plugged')
     Plug 'norcalli/nvim-colorizer.lua'
     " Indentation Levels
     Plug 'lukas-reineke/indent-blankline.nvim'
-    " Nvim-Tree
-    Plug 'kyazdani42/nvim-tree.lua'
     " LspSaga LSP ui extension
     Plug 'glepnir/lspsaga.nvim'
     " Lazygit
     Plug 'kdheepak/lazygit.nvim'
-call plug#end()
 
+" File Structure
+    " Nvim-Tree
+    Plug 'kyazdani42/nvim-tree.lua'
+
+    " Telescope 
+    Plug 'nvim-telescope/telescope.nvim'
+    Plug 'nvim-lua/plenary.nvim'
+    Plug 'BurntSushi/ripgrep'
+
+    " Find Project Root
+    Plug 'airblade/vim-rooter'
+
+" Theme   
+    "Material
+    Plug 'ishan9299/nvim-solarized-lua'
+    " Dev Icons
+    Plug 'ryanoasis/vim-devicons'
+    " Web Dev Icons
+    Plug 'kyazdani42/nvim-web-devicons'
+
+call plug#end()
