@@ -4,8 +4,6 @@ saga.init_lsp_saga({
     border_style = "single",
     move_in_saga = { prev = '<C-p>',next = '<C-n>'},
     diagnostic_header = { " ", " ", " ", "ﴞ " },
-    show_diagnostic_source = true,
-    diagnostic_source_bracket = {},
     max_preview_lines = 10,
     code_action_icon = "",
     code_action_num_shortcut = true,
@@ -37,7 +35,6 @@ saga.init_lsp_saga({
     },
     rename_action_quit = "q",
     rename_in_select = true,
-    definition_preview_icon = "  ",
     show_outline = {
       win_position = 'right',
       win_with = '',
