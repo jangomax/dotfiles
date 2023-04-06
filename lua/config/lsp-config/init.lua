@@ -52,6 +52,18 @@ local servers = {
             }
          }
       }
+   },
+   {
+      name = 'jdtls'
+   },
+   {
+      name = 'clangd'
+   },
+   {
+      name = 'asm_lsp',
+      settings = {
+         filetype = { 'asm' }
+      }
    }
 }
 
